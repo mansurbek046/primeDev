@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.contents {
+  width: 100%;
+  padding: 15px;
+  background-image: url("./images/bg3.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.contents .row > div {
+  background-color: darkgrey;
+  display: block;
+  margin: 30px;
+  text-align: center;
+  padding-top: 15px;
+  color: white;
+  font-weight: 450;
+  border-radius: 10px;
+  opacity: 0.9
+}
+.contents .row > div h3 {
+  margin: 10px 0;
+}
+.contents .row {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 150px;
+}
+.navbar ul li:active {
+  text-decoration: underline;
+}
+.navbar ul li:hover {
+  background-color: #07FFD2;
+  padding: 5px;
+  color: black;
+}
+.aboutMe {
+  width: 90%;
+  margin: auto;
+  margin-top: 70px;
+}
+.meImg {
+  border: 2px solid black;
+  border-radius: 180px;
+  width: 100%;
+  height: 90%;
+}
+.mt-3 {
+  font-size: 20px;
+}
+.networks img {
+  width: 40px;
+  margin: 5px;
+}
+
+footer {
+  background-color: darkgray;
+  padding: 15px;
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+}
+
+.rekarea {
+  width: 100%;
+  padding: 20px;
+  background-image: url("./images/bgrekarea.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+.rekarea img {
+  display: inline-block;
+  width: 22%;
+}
+.rekarea h2 {
+  margin-left: 10%;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+h2 {
+  font-style: italic;
+}
+
