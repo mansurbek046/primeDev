@@ -1,6 +1,6 @@
-/*html,body{
+html,body{
 overflow-x: hidden;
-}*/
+}
 
 * {
   margin: 0;
@@ -38,7 +38,7 @@ overflow-x: hidden;
   text-decoration: underline;
 }
 .navbar ul li:hover {
-  background-color: #07FFD2;
+  background-color: blue;
   color: black;
 }
 .aboutMe {
@@ -89,7 +89,4 @@ footer {
 }
 h2 {
   font-style: italic;
-}
-.navbar{
-  owerflow-x: hidden;
 }
