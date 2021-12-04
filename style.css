@@ -1,6 +1,6 @@
-body{
-overflow-x: hidden
-}
+/*html,body{
+overflow-x: hidden;
+}*/
 
 * {
   margin: 0;
@@ -91,5 +91,5 @@ h2 {
   font-style: italic;
 }
 .navbar{
-  margin-top: 10px;
+  owerflow-x: hidden;
 }
