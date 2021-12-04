@@ -1,4 +1,4 @@
-html{
+body{
 overflow-x: hidden
 }
 
@@ -90,4 +90,6 @@ footer {
 h2 {
   font-style: italic;
 }
-
+.navbar{
+  margin-top: 10px;
+}
