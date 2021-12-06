@@ -1,6 +1,11 @@
 html,body{
 
 }
+.navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+    text-align: center;
+}
 .container-lg{
   padding: 0;
 }
