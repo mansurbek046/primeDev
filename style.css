@@ -69,6 +69,8 @@ font-family: 'Baloo Bhaijaan 2', cursive;
 .networks img {
   width: 40px;
   margin: 5px;
+  padding: 3px;
+  border-radius: 4px;
 }
 
 footer {
