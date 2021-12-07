@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap');
 html,body{
 
 }
@@ -48,6 +50,10 @@ html,body{
   background-color: blue;
   color: black;
 }
+.navbar{
+font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
 .aboutMe {
   width: 90%;
   margin: auto;
