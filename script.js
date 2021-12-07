@@ -13,3 +13,7 @@ document.getElementById('youtube').addEventListener('click', function() {
 document.querySelector('.rekarea').addEventListener('click',function(){
   open('https://t.me/primeDev')
 })
+
+document.querySelector('#github').addEventListener('click',function(){
+  open('https://github.com/Mansurbek2006.git')
+})
