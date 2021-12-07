@@ -43,11 +43,9 @@ html,body{
   justify-content: space-evenly;
   padding-top: 150px;
 }
-.navbar ul li:active {
-  text-decoration: underline;
-}
+
 .navbar ul li:hover {
-  background-color: blue;
+  transition: 0.7;
   color: black;
 }
 .navbar{
