@@ -15,5 +15,5 @@ document.querySelector('.rekarea').addEventListener('click',function(){
 })
 
 document.querySelector('#github').addEventListener('click',function(){
-  open('https://github.com/Mansurbek2006.git')
+  open('https://github.com/Mansurbek2006')
 })
