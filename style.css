@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap');
 html,body{
-
+   owerflow-x: hidden;
 }
 .navbar-nav .nav-link {
     padding-right: 0;
@@ -50,6 +50,8 @@ html,body{
 }
 .navbar{
 font-family: 'Baloo Bhaijaan 2', cursive;
+  position: sticky;
+  top: 0;
 }
 
 .aboutMe {
