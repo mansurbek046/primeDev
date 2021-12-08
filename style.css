@@ -50,7 +50,7 @@
 .navbar{
   font-family: 'Baloo Bhaijaan 2', cursive;
   position: sticky;
-  top: 0;
+  top: 0px;
 }
 
 .aboutMe {
