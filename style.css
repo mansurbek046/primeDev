@@ -1,11 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap');
-*{
-  box-sizing: border-box;
-}
-html,body{
-   overflow-x: hidden;
-}
+
 .navbar-nav .nav-link {
     padding-right: 0;
     padding-left: 0;
@@ -17,6 +12,7 @@ html,body{
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .contents {
@@ -52,7 +48,7 @@ html,body{
   color: black;
 }
 .navbar{
-font-family: 'Baloo Bhaijaan 2', cursive;
+  font-family: 'Baloo Bhaijaan 2', cursive;
   position: sticky;
   top: 0;
 }
@@ -107,4 +103,7 @@ footer {
 }
 h2 {
   font-style: italic;
+}
+html,body{
+   overflow-x: hidden;
 }
