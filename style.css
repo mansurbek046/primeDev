@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap');
 
 .a{
-    margin-right: 0;
+    margin-right: 0!important;
 }
 .navbar-nav .nav-link {
     padding-right: 0;
