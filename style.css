@@ -1,6 +1,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap');
 
+
+
+.row{
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+}
 .a{
     margin-right: 0!important;
     margin-left: 0!important;
