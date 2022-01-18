@@ -1,26 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap');
+
+
+
+.row{
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 0;
+}
+.a{
+    margin-right: 0!important;
+    margin-left: 0!important;
+}
+.navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+    text-align: center;
+}
+.container-lg{
+  padding: 0;
+}
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .contents {
   width: 100%;
   padding: 15px;
-  background-image: url("./images/bg3.jpg");
+  background-image: url("./images/bg.jpg");
   background-repeat: no-repeat;
   background-size: auto;
 }
 
 .contents .row > div {
-  background-color: darkgrey;
+  background-color: rgb(31, 37, 44);
   display: block;
-  margin: 30px;
+  margin: auto;
   text-align: center;
-  padding-top: 15px;
+  padding: 15px;
   color: white;
   font-weight: 450;
-  border-radius: 10px;
-  opacity: 0.9
+  border-radius: 2px;
+  opacity: 0.9;
+  border-bottom: 1px solid white;
+  box-sizing: border-box;
 }
 .contents .row > div h3 {
   margin: 10px 0;
@@ -30,34 +54,33 @@
   justify-content: space-evenly;
   padding-top: 150px;
 }
-.navbar ul li:active {
-  text-decoration: underline;
+
+.navbar{
+  font-family: 'Baloo Bhaijaan 2', cursive;
+  position: sticky;
+  top: 0px;
 }
-.navbar ul li:hover {
-  background-color: #07FFD2;
-  color: black;
-}
+
 .aboutMe {
   width: 90%;
   margin: auto;
   margin-top: 70px;
 }
 .meImg {
-  border: 2px solid black;
-  border-radius: 180px;
   width: 100%;
-  height: 90%;
 }
 .mt-3 {
   font-size: 20px;
+  font-weight: 700;
 }
 .networks img {
   width: 40px;
   margin: 5px;
+  padding: 3px;
+  border-radius: 4px;
 }
 
 footer {
-  background-color: darkgray;
   padding: 15px;
   text-align: center;
   color: white;
@@ -75,15 +98,38 @@ footer {
 }
 .rekarea img {
   display: inline-block;
-  width: 22%;
+  width: 0vw;
+  transition: 0.7;
 }
 .rekarea h2 {
   margin-left: 10%;
-  color: white;
   font-family: sans-serif;
-  font-weight: bold;
-}
-h2 {
-  font-style: italic;
+  font-weight: lighter;
+  color: rgb(31, 37, 44);
 }
 
+.icons{
+  font-size: 40px;
+  color: limegreen;
+  margin-top: 15px;
+}
+.icons i:hover{
+  color: orange;
+}
+#youtube:hover{
+  color: red;
+}
+#facebook:hover{
+  color: #4D5CFA;
+}
+#telegram:hover{
+  color: darkturquoise;
+}
+#github:hover{
+  color: darkgrey;
+}
+
+::selection{
+  background-color: #353535;
+  color: #0AC6FF;
+}

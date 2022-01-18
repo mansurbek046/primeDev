@@ -10,6 +10,6 @@ document.getElementById('youtube').addEventListener('click', function() {
   open('https://youtube.com/channel/UCBWrcupwYh1h8lBdxDuFHCQ')
 })
 
-document.querySelector('.rekarea').addEventListener('click',function(){
-  open('https://t.me/primeDev')
+document.querySelector('#github').addEventListener('click',function(){
+  open('https://github.com/Mansurbek2006')
 })

@@ -1,54 +1,60 @@
-
+body {
+  background-color: #fff;
+  background-image: url("../images/background.bin");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 
 .h2, p {
   margin-top: 15px;
   text-align: center;
   font-style: normal;
-  color: darkgray;
+  color: #EAEAEA;
 }
 p {
   font-size: 14px;
+  font-weight: bold;
 }
 .siteView {
   width: 90%;
   margin: auto;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  box-shadow: 0px 0px 30px black;
 }
-.lead {
-  font-size: 15px;
+.fw-bold{
+  margin: 0 10px;
 }
 h3 {
-  color: red;
+  color: rgb(33, 37, 41);
   padding-right: 10px;
-  display: inline-block;
-}
-.icon {
-  width: 32px;
-  height: 32px;
-  margin-left: 10px;
-  display: inline-block;
-  padding: 0;
-}
-sub {
-  font-size: 10px;
-  font-weight: bold;
-  color: darkgray;
+  text-align: center;
 }
 .about {
   color: green;
   font-weight: bold;
   font-family: sans-serif;
+  margin: 0 10px;
 }
 
 .rounded {
   width: 100%;
+  border-bottom-left-radius: 0px!important;
+  border-bottom-right-radius: 0px!important;
+  border-bottom: 1px solid rgb(33, 37, 41);
 }
-.c {
-  position: relative;
-  display: inline-block;
-  background-color: limegreen;
-  border-radius: 5px;
-  font-size: 10px;
-  color: white;
-  text-transform: capitalize;
-  padding: 2px;
+
+.btn img{
+  width: 30px;
+}
+
+.btn{
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+.btn-group{
+  width: 100%;
+  margin: auto;
+  margin-top: 10px;
 }

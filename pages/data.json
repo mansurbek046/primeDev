@@ -1,0 +1,83 @@
+[
+  {
+    "pathPhoto":"mathQuiz.jpg",
+    "siteName":"MathQuiz",
+    "siteAbout":"MATEMATIK o'yin",
+    "techs":"HTML, CSS, JS",
+    "urlCode":"MathQuiz.git",
+    "urlSite":"mathquizuz.netlify.app",
+    "urlVideo":false
+  },
+  {
+    "pathPhoto":"forstudy.png",
+    "siteName":"forStudy",
+    "siteAbout":"TA'LIM sayti uchun bosh sahifa",
+    "techs":"HTML, CSS",
+    "urlCode":"forStudy.git",
+    "urlSite":"forstudy.netlify.app",
+    "urlVideo":false
+  },
+  {
+    "pathPhoto":"SimplyPortfolio.jpg",
+    "siteName":"SimplyPortfolio",
+    "siteAbout":"Portfolio sayti uchun ayni bosh sahifa",
+    "techs":"Bootstrap, CSS",
+    "urlCode":"simplyportfolio.git",
+    "urlSite":"simplyportfolio.netlify.app",
+    "urlVideo":false
+  },
+  {
+    "pathPhoto":"PasswordGenerator.png",
+    "siteName":"Generate Passwords App",
+    "siteAbout":"Bu bilan yangi parollarni oson yarating",
+    "techs":"HTML, CSS, JS",
+    "urlCode":"PasswordGeneratorApp.git",
+    "urlSite":"generatepasswords.netlify.app",
+    "urlVideo":false
+  },
+  {
+    "pathPhoto":"landingpage1.jpg",
+    "siteName":"LandingPageOne",
+    "siteAbout":"Ajoyib landing page",
+    "techs":"HTML, CSS",
+    "urlCode":"PrimeLandingPage1.git",
+    "urlSite":"primelandingpage1.netlify.app",
+    "urlVideo":false
+  },
+  {
+    "pathPhoto":"HeadPage.jpg",
+    "siteName":"HeadPage",
+    "siteAbout":"Sodda va chiroyli sayt bosh sahifasi",
+    "techs":"HTML, CSS",
+    "urlCode":"HeadPage.git",
+    "urlSite":"headpage.netlify.app",
+    "urlVideo":"youtube.com"
+  },
+  {
+    "pathPhoto":"BussinesTest.jpg",
+    "siteName":"BussinesTest",
+    "siteAbout":"Biznes sayt uchun shablon. Test varianti",
+    "techs":"HTML, CSS, Bootstrap",
+    "urlCode":"bussinesTest.git",
+    "urlSite":"bussinestest.netlify.app",
+    "urlVideo":"youtube.com"
+  },
+  {
+    "pathPhoto":"xZero.png",
+    "siteName":"xZero.com",
+    "siteAbout":"Ta'lim sayti uchun shablon",
+    "techs":"HTML, CSS",
+    "urlCode":"xZero.git",
+    "urlSite":"xZer0.netlify.app",
+    "urlVideo":"youtube.com"
+  },
+  {
+    "pathPhoto":"BuyComputer.png",
+    "siteName":"BuyComputer.uz",
+    "siteAbout":"Onlayn kompyuter savdosi uchun mo'ljallangan sayt",
+    "techs":"HTML, CSS, JS",
+    "urlCode":"BuyComputer.uz.git",
+    "urlSite":"buycomputer.netlify.app",
+    "urlVideo":"youtube.com"
+  }
+]
