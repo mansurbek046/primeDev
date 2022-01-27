@@ -1,12 +1,23 @@
 [
   {
+    "pathPhoto":"landingpage2.jpg",
+    "siteName":"LandingPageTwo",
+    "siteAbout":"Ajoyib landing page 2",
+    "techs":"HTML, CSS",
+    "urlCode":"LandingPage2.git",
+    "urlSite":"primelandingpage2.netlify.app",
+    "urlVideo":"/",
+    "type":"fake"
+  },
+  {
     "pathPhoto":"mathQuiz.jpg",
     "siteName":"MathQuiz",
     "siteAbout":"MATEMATIK o'yin",
     "techs":"HTML, CSS, JS",
     "urlCode":"MathQuiz.git",
     "urlSite":"mathquizuz.netlify.app",
-    "urlVideo":false
+    "urlVideo":"/",
+    "type":"real"
   },
   {
     "pathPhoto":"forstudy.png",
@@ -15,7 +26,8 @@
     "techs":"HTML, CSS",
     "urlCode":"forStudy.git",
     "urlSite":"forstudy.netlify.app",
-    "urlVideo":false
+    "urlVideo":"/",
+    "type":"fake"
   },
   {
     "pathPhoto":"SimplyPortfolio.jpg",
@@ -24,7 +36,8 @@
     "techs":"Bootstrap, CSS",
     "urlCode":"simplyportfolio.git",
     "urlSite":"simplyportfolio.netlify.app",
-    "urlVideo":false
+    "urlVideo":"/",
+    "type":"fake"
   },
   {
     "pathPhoto":"PasswordGenerator.png",
@@ -33,7 +46,8 @@
     "techs":"HTML, CSS, JS",
     "urlCode":"PasswordGeneratorApp.git",
     "urlSite":"generatepasswords.netlify.app",
-    "urlVideo":false
+    "urlVideo":"/",
+    "type":"real"
   },
   {
     "pathPhoto":"landingpage1.jpg",
@@ -42,7 +56,8 @@
     "techs":"HTML, CSS",
     "urlCode":"PrimeLandingPage1.git",
     "urlSite":"primelandingpage1.netlify.app",
-    "urlVideo":false
+    "urlVideo":"/",
+    "type":"fake"
   },
   {
     "pathPhoto":"HeadPage.jpg",
@@ -51,7 +66,8 @@
     "techs":"HTML, CSS",
     "urlCode":"HeadPage.git",
     "urlSite":"headpage.netlify.app",
-    "urlVideo":"youtube.com"
+    "urlVideo":"youtube.com",
+    "type":"fake"
   },
   {
     "pathPhoto":"BussinesTest.jpg",
@@ -60,7 +76,8 @@
     "techs":"HTML, CSS, Bootstrap",
     "urlCode":"bussinesTest.git",
     "urlSite":"bussinestest.netlify.app",
-    "urlVideo":"youtube.com"
+    "urlVideo":"youtube.com",
+    "type":"fake"
   },
   {
     "pathPhoto":"xZero.png",
@@ -69,7 +86,8 @@
     "techs":"HTML, CSS",
     "urlCode":"xZero.git",
     "urlSite":"xZer0.netlify.app",
-    "urlVideo":"youtube.com"
+    "urlVideo":"youtube.com",
+    "type":"fake"
   },
   {
     "pathPhoto":"BuyComputer.png",
@@ -78,6 +96,7 @@
     "techs":"HTML, CSS, JS",
     "urlCode":"BuyComputer.uz.git",
     "urlSite":"buycomputer.netlify.app",
-    "urlVideo":"youtube.com"
+    "urlVideo":"youtube.com",
+    "type":"real"
   }
 ]
