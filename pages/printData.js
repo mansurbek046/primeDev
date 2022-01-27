@@ -18,6 +18,7 @@ let lastIconInButton=document.createElement('img');
 let threeIconInButton=document.createElement('img');
 let siteViewDiv=document.createElement('div');
 let buttonsDiv=document.createElement('div');
+let u=document.createElement('u');
 /**/
 sitePhoto.setAttribute('class', 'rounded img-fluid');
 sitePhoto.setAttribute('src', '../sitesPhotos/'+siteData.pathPhoto);
@@ -33,6 +34,15 @@ aboutDiv.innerHTML = siteData.siteAbout;
 /*Texnologiyalar*/
 techsDiv.innerHTML=`Texnologiyalar: ${siteData.techs}`;
 techsDiv.setAttribute('class','text-primary fw-bold');
+
+ if (siteData.type == 'fake') {
+        u.setAttribute('class', 'fake');
+        u.innerHTML = 'fake'} else {
+        u.setAttribute('class', 'real');
+        u.innerHTML = 'real'
+      }
+
+
 /*Birinchi tugma*/
 firstIconInButton.setAttribute('src','../images/github.png');
 firstButton.setAttribute('class','btn btn-dark');
@@ -64,6 +74,7 @@ buttonsDiv.append(lastButton);
 /*Contentlar,SaytNomi,Sayt haqida,Texnologiyalar,Tugmalar*/
 contentDiv.setAttribute('class','content');
 contentDiv.append(siteNameDiv);
+siteViewDiv.append(u);
 contentDiv.append(aboutDiv);
 contentDiv.append(techsDiv);
 contentDiv.append(buttonsDiv);
