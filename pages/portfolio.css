@@ -6,6 +6,25 @@ body {
   background-attachment: fixed;
 }
 
+u {
+  position: absolute;
+  display: inline;
+  color: white;
+  padding: 0px 15px;
+  text-decoration: none;
+  font-family: sans-serif;
+  border-top-left-radius: 15px;
+}
+
+.real {
+  background-color: limegreen;
+}
+
+.fake {
+  background-color: red;
+}
+
+
 .h2, p {
   margin-top: 15px;
   text-align: center;
